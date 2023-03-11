@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script src="jquery.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+		$(".sembunyi").click(function() {$("#foto").hide("slow")});
+		$(".tampil").click(function() {$("#foto").show("slow")});
+		});
+	</script>
+</head>
+<body>
+	<button class="sembunyi">Sembunyikan</button>
+	<button class="tampil">Tampilkan</button>
+	<p><img id="foto" src="images/olah.png"></p>
+</body>
+</html>
